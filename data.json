@@ -4,13 +4,24 @@
         "die [prefixes]frau",
         "das [prefixes]tal",
         "das [prefixes]haus",
+        "der [prefixes]könig",
+        "die [prefixes]königin",
         "der [adjectives]Wald",
         "der [adjectives]See",
         "das [adjectives]Biest",
         "das [adjectives]Grab",
         "der [adjectives]Sieg",
         "die [adjectives+n]Puppen",
-        "der [adjectives]Tempel"
+        "der [adjectives]Tempel",
+        "das [adjectives]Erbe",
+        "der [adjectives]Leopard",
+        "der [adjectives]Passagier",
+        "der Tauchgang",
+        "die Kammer",
+        "die Signale",
+        "die Spur",
+        "die Fährte",
+        "die Straße"
     ],
     "prefixes": [
         "Eisen",
@@ -27,7 +38,26 @@
         " der Rache",
         " des Schreckens",
         " des Grauens",
-        " des Zauberers"
+        " des Zauberers",
+        " des Entsetzens",
+        " des Teufels",
+        " des Bösen",
+        " des Meisterdiebs",
+        " des Drachens",
+        " des Piraten",
+        " des Todes",
+        " des Henkers",
+        " des Untoten",
+        " des Sturms",
+        " der Medusa",
+        " der Ungeheuer",
+        " der Rätsel",
+        " der Zerstörung",
+        " des Vergessens",
+        " des Spielers",
+        " ohne Augen",
+        " ohne Kopf",
+        " ohne Beine"
     ],
     "adjectives": [
         "abrupte",
@@ -135,6 +165,11 @@
         "verschwundene",
         "versunkene",
         "vergessene",
-        "entführte"
+        "entführte",
+        "feurige",
+        "verlassene",
+        "erste",
+        "letzte",
+        "größte"
     ]
 }

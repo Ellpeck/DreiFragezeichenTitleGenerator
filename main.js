@@ -10,12 +10,13 @@ $("#new").on('click', function () {
 
 function generate() {
     let result = data.nouns[Math.floor(Math.random() * data.nouns.length)];
-    let appendSuffix = false;
+    let appendSuffix = true;
 
     // replace prefixes
     if (result.indexOf("[prefixes]") > 0) {
         let prefix = data.prefixes[Math.floor(Math.random() * data.prefixes.length)];
         result = result.replace("[prefixes]", prefix);
+        appendSuffix = false;
     }
 
     // replace adjectives
@@ -24,8 +25,7 @@ function generate() {
         if (Math.random() <= 0.5) {
             let adjective = data.adjectives[Math.floor(Math.random() * data.adjectives.length)];
             value = `${adjective}$1 `;
-        } else {
-            appendSuffix = true;
+            appendSuffix = false;
         }
         result = result.replace(/\[adjectives(?:\+(.*))?\]/, value);
     }
@@ -37,4 +37,5 @@ function generate() {
     }
 
     $("#title").html(`und ${result}`);
+    console.log(result);
 }
