@@ -33,7 +33,7 @@ function generate() {
     // append suffix
     if (appendSuffix) {
         let suffix = data.suffixes[Math.floor(Math.random() * data.suffixes.length)];
-        result += suffix;
+        result += ` ${suffix}`;
     }
 
     $("#title").html(`und ${result}`);
