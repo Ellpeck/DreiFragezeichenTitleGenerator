@@ -16,12 +16,15 @@
         "das [adjectives]Erbe",
         "der [adjectives]Leopard",
         "der [adjectives]Passagier",
+        "der [adjectives]Berg",
+        "die [adjectives]Schlucht",
         "der Tauchgang",
         "die Kammer",
         "die Signale",
         "die Spur",
         "die Fährte",
-        "die Straße"
+        "die Straße",
+        "die Klippe"
     ],
     "prefixes": [
         "Eisen",
@@ -31,7 +34,11 @@
         "Gespenster",
         "Chaos",
         "Wahnsinns",
-        "Gefahren"
+        "Gefahren",
+        "Todes",
+        "Glas",
+        "Schnee",
+        "Ski"
     ],
     "suffixes": [
         " der Toten",
@@ -64,7 +71,6 @@
         "abweisende",
         "angsteinflößende",
         "ängstliche",
-        "auf einmale",
         "aufgeregte",
         "beängstigende",
         "bedrohliche",
@@ -74,11 +80,10 @@
         "besorgte",
         "blindwütige",
         "blitzartige",
-        "blitzschnelle",
         "brennende",
         "brüllende",
         "drängende",
-        "dunkele",
+        "dunkle",
         "düstere",
         "durchdringende",
         "durchzuckende",
